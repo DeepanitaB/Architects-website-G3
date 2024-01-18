@@ -1,0 +1,488 @@
+/* font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Utilities styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-light-gray {
+    color: #727272;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+    background: #FF900E;
+    padding: 16px 20px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+.section-title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* header styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.logo-title{
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+/* main styles */
+main {
+    width: 100%;
+    margin: 70px 0px;
+}
+
+/* teams styles */
+.teams-container {
+    display: flex;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    
+}
+.teams-img-container img{
+    width: 260px;
+    height: 260px;
+
+}
+
+.teams-content {
+    padding-left: 70px;
+    
+}
+
+.teams-title {
+    font-size: 46px;
+}
+
+.teams-title .quick-list {
+    font-weight: 500;
+}
+
+.teams-title .text-features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* feature section styles */
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.features .section-title{
+    border-left: 5px solid #FF900E;
+    /* padding-left: 40px; */
+}
+
+.feature-content .card {
+    width:450px;
+    height: 151px;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img img{
+    width: 508px;
+    height: 782px;
+    margin-top: 80px;
+}
+
+ .ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    margin: -0px -60px;
+}
+
+.ten-years-badge h2{
+    font-size: 40px;
+}
+
+.ten-years-badge p{
+    font-size: 20px;
+}
+
+/* Some facts section */
+.facts .section-title {
+    margin-left: 200px;
+}
+
+.facts-brief{
+    color: #727272;
+    margin-left: 200px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+}
+
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-numbers {
+    font-size: 36px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* portfolio section styles */
+
+.portfolio {
+    margin-top: 100px;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.portfolio .section-title {
+    margin-bottom: 40px;
+    margin-top: 160px;
+}
+
+.portfolio .text-light-gray {
+    margin-bottom: 60px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.portfolio-item {
+    width: 300px;
+    text-align: left;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#project1-img{
+    height: 235px;
+}
+
+
+/* Our sponsors styles */
+
+.sponsors {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sponsors-img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.sponsors-img-container img {
+    width: 165px;
+}
+
+/* Footer styles */
+.footer{
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+/* Css animations styles */
+
+
+/* .logo-title hover effect */
+.logo-title:hover {
+    color: #FF900E;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navigation links hover effect */
+nav li a:hover {
+    color: #FF900E;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Banner img hover effect */
+.banner img:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+/* Team img hover effect */
+.teams-img-container img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* .ten-years-badge hover effect */
+.ten-years-badge:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Portfolio item hover effect */
+.portfolio-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* .sponsors-img-container img hover effect */
+.sponsors-img-container img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background: #E07600;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Footer title hover effect */
+.footer-title:hover {
+    color: #FF900E;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Mobile Responsive Styles */
+
+@media only screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .teams-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 20px;
+    }
+
+    .teams-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-img-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .teams-content {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .teams-title {
+        font-size: 30px;
+    }
+
+    
+    .feature-img,
+    .facts,
+    .portfolio,
+    .sponsors {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .features {
+        margin-top: 70px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-content .card{
+        width: 250px;
+        height: 200px;
+    }
+
+    .feature-img img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .ten-years-badge {
+        bottom: 20px;
+        margin: 0;
+    }
+
+    .ten-years-badge h2 {
+        font-size: 28px;
+    }
+
+    .ten-years-badge p {
+        font-size: 16px;
+    }
+
+    .facts .section-title,
+    .facts-brief {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .facts-card-container,
+    .portfolio-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facts-card-container .card,
+    .portfolio-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item img {
+        border-radius: 0;
+    }
+
+    .sponsors-img-container {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
